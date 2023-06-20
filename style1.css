@@ -1,0 +1,44 @@
+   .navbar-brand {
+      font-weight: bold;
+    }
+     .card-img-top {
+      height: 200px;
+      object-fit: cover;
+      }
+
+  b{
+    color: rgb(255, 255, 255);
+  }
+  #n1{
+    color: rgb(155, 0, 0);
+  }
+  .btn-primary{
+    background-color: red;
+    border-color: black;
+  }
+  /* Classe personalizada para ajustar a largura do carrossel */
+  .carousel {
+    max-width: 1080px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+   
+  }
+
+  /* Classe personalizada para ajustar a altura do carrossel */
+  .carousel .carousel-inner {
+    height: 500px; border-radius: 6px;
+  }
+
+  /* Classe personalizada para ajustar a altura dos slides */
+  .carousel .carousel-item {
+    height: 100%;
+  }
+  
+  /* Estilos CSS para o rodapé */
+  .footer {
+    background-color: #424449;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  #f{color: red}
+

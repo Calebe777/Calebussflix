@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.botao-assistir {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 20px auto;
+  transition: background-color 0.3s;
+}
+
+.botao-assistir:hover {
+  background-color: gray;
+}
+
+/* Estilos para o rodapé */
+.rodape {
+  background-color: #424449;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+img{
+  width: 300px;
+  position: relative;
+  left: 80vh;
+}

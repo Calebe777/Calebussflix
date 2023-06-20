@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style3.css">
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+  <!-- Cabeçalho -->
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="netflix-logo.png" alt="Netflix Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Séries</a></li>
+        <li><a href="#">Filmes</a></li>
+        <li><a href="#">Documentários</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>Filmes, séries e muito mais.</h1>
+      <p>Assista onde quiser. Cancele quando quiser.</p>
+      <a href="#" class="btn btn-primary">Experimente grátis</a>
+    </div>
+  </header>
+
+  <!-- Seção de destaque -->
+  <section class="highlight">
+    <h2>Em destaque</h2>
+    <div class="highlight-content">
+      <!-- Exemplo de cartão de filme em destaque -->
+      <div class="movie-card">
+        <img src="movie-image.jpg" alt="Movie Image">
+        <div class="movie-details">
+          <h3>Título do Filme</h3>
+          <p>Descrição do filme</p>
+        </div>
+      </div>
+      <!-- Outros cartões de filme em destaque -->
+      <!-- ... -->
+    </div>
+  </section>
+
+  <!-- Seção de categorias -->
+  <section class="categories">
+    <h2>Categorias</h2>
+    <div class="category-content">
+      <!-- Exemplo de categoria -->
+      <div class="category">
+        <h3>Título da Categoria</h3>
+        <div class="category-movies">
+          <!-- Exemplo de cartão de filme na categoria -->
+          <div class="movie-card">
+            <img src="movie-image.jpg" alt="Movie Image">
+            <div class="movie-details">
+              <h4>Título do Filme</h4>
+              <p>Descrição do filme</p>
+            </div>
+          </div>
+          <!-- Outros cartões de filme na categoria -->
+          <!-- ... -->
+        </div>
+      </div>
+      <!-- Outras categorias -->
+      <!-- ... -->
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2023 Netflix Clone. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
